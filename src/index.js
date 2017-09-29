@@ -70,7 +70,7 @@ export default function nodeResolve ( options = {} ) {
 					}, customResolveOptions ),
 					( err, resolved ) => {
 						if ( !disregardResult && !err ) {
-							if ( resolved && fs.existsSync( resolved ) ) {
+							if ( resolved && fs.existsSync( resolved ) && customResolveOptions.preserveSymLinks !== true) {
 								resolved = fs.realpathSync( resolved );
 							}
 
