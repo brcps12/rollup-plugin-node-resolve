@@ -17,6 +17,7 @@
   "module": "dist/rollup-plugin-node-resolve.es.js",
   "jsnext:main": "dist/rollup-plugin-node-resolve.es.js",
   "scripts": {
+    "preinstall": "npm run build",
     "build": "rollup -c",
     "pretest": "npm run build",
     "test": "mocha",
