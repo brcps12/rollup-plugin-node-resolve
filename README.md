@@ -62,7 +62,7 @@ export default {
       // to node-resolve
       customResolveOptions: {
         moduleDirectory: 'js_modules',
-        preserveSymLinks: true // Default: false
+        preserveSymlinks: true // Default: false
       }
     })
   ]
