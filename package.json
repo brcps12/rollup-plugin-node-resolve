@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-node-resolve",
+  "name": "rollup-plugin-node-resolve-symlinks",
   "description": "Bundle third-party dependencies in node_modules",
   "version": "3.0.0",
   "devDependencies": {
@@ -34,7 +34,7 @@
     "is-module": "^1.0.0",
     "resolve": "^1.1.6"
   },
-  "repository": "rollup/rollup-plugin-node-resolve",
+  "repository": "brcps12/rollup-plugin-node-resolve-symlinks",
   "keywords": [
     "rollup",
     "rollup-plugin",
@@ -42,10 +42,10 @@
     "npm",
     "modules"
   ],
-  "author": "Rich Harris <richard.a.harris@gmail.com>",
+  "author": "Chae Hong Jeong<brcps12@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rollup/rollup-plugin-node-resolve/issues"
+    "url": "https://github.com/brcps12/rollup-plugin-node-resolve-symlinks/issues"
   },
-  "homepage": "https://github.com/rollup/rollup-plugin-node-resolve#readme"
+  "homepage": "https://github.com/brcps12/rollup-plugin-node-resolve-symlinks#readme"
 }
